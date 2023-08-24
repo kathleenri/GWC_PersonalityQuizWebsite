@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Personality Quiz</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Pick your future life and find out if you're SPONGEBOB or PATRICK!</h1>
+	</header>
+
+	<main>
+
+		<h2>Which house will you live in?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img class="pics" src="assets/house 1.jpg" alt= "a picture of a white modern mansion with many windows and pools.">
+
+        <br>
+        <button onclick="disable1()"; id="q1a1">House 1: Mansion</button>
+      </div>
+
+      <div class="answer-choice">
+        <img class="pics" src="assets/house 2.jpeg" alt="a picture with a castle home with a lake or pool in the front.">
+        <br>
+        <button onclick="disable1()"; id="q1a2">House 2: Castle home</button>
+
+      
+      </div>
+
+    </div> 
+    
+    <h2>Which car will you own?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img class="pics" src="assets/car 1.jpg" alt= "a picture of a baby blue lamborghini displaying from the front with its doors open.">
+        <br>
+        <button onclick="disable2()"; id="q2a1">Car 1: Lamborghini</button>
+      </div>
+
+      <div class="answer-choice">
+        <img class="pics" src="assets/car 2.jpg" alt= "a picture of a white tesla model x displayed with its doors open.">
+
+        <br>
+        <button onclick="disable2()"; id="q2a2"> car 2: Tesla</button>
+      </div>
+
+    </div> 
+    
+    <h2>How many kids will you have?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img class="pics" src="assets/child 1.jpg" alt= "a picture of a little girl in a red dress laying in the grass and holding a white flower.">
+
+        <br>
+        <button onclick="disable3()"; id="q3a1">None or One</button>
+      </div>
+
+      <div class="answer-choice">
+        <img class="pics" src="assets/child 2.jpeg" alt="a picture with two kids and a baby laying on a white carpet or blackent." >
+        <br>
+        <button onclick="disable3()"; id="q3a2">Two or More</button>
+      </div>
+    
+    </div>
+    
+    <h2>Which is your pet?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img class="pics" src="assets/Pet 2.jpg">
+
+        <br>
+        <button onclick="disable4()"; id="q4a1">Pet 1: Cat</button>
+      </div>
+
+      <div class="answer-choice">
+        <img class="pics" src="assets/Pet 1.jpeg">
+        <br>
+        <button onclick="disable4()"; id="q4a2">Pet 2: Dog</button>
+      </div>
+    
+    </div>
+
+     <h2>Which city do you live in?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img class="pics" src="assets/nyc.jpg">
+
+        <br>
+        <button onclick="disable5()"; id="q5a1">New York City</button>
+      </div>
+
+      <div class="answer-choice">
+        <img class="pics" src="assets/la.jpg">
+        <br>
+        <button onclick="disable5()"; id="q5a2">Los Angeles</button>
+      </div>
+    
+    </div>
+    <br> <br> <br>
+    <button id="reveal">Show My Results</button>
+    <h2 id="result">Your result is...</h2>
+    <button id="restart">Restart</button>
+    
+  </main>
+  </body>
+</html>
